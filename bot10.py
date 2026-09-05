@@ -96,6 +96,7 @@ if __name__ == "__main__":
     for i in range (mulaiDari, mulaiDari+jumlah):
         contact = contacts[i]
         nama = contact["nama"]
+        nama = nama[3:-3]
         email = contact["email"]
         c = i
         #print(f"Proses: {nama} ({email})")
